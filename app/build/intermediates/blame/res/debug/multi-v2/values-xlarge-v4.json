@@ -1,0 +1,41 @@
+{
+    "logs": [
+        {
+            "outputFile": "H:\\Final Year Project\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-xlarge-v4\\values-xlarge-v4.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\Monwar\\.gradle\\caches\\transforms-2\\files-2.1\\697f71c0c12135256cbfe98df498a7e4\\appcompat-1.0.2\\res\\values-xlarge-v4\\values-xlarge-v4.xml",
+                    "from": {
+                        "startLines": "-1,-1,-1,-1,-1,-1",
+                        "startColumns": "-1,-1,-1,-1,-1,-1",
+                        "startOffsets": "-1,-1,-1,-1,-1,-1"
+                    },
+                    "to": {
+                        "startLines": "2,3,4,5,6,7",
+                        "startColumns": "4,4,4,4,4,4",
+                        "startOffsets": "55,126,197,267,337,405",
+                        "endColumns": "70,70,69,69,67,67",
+                        "endOffsets": "121,192,262,332,400,468"
+                    }
+                },
+                {
+                    "source": "H:\\Final Year Project\\app\\src\\main\\res\\values-xlarge\\dimens.xml",
+                    "from": {
+                        "startLines": "3,4,2,5,7,9,6,8",
+                        "startColumns": "4,4,4,4,4,4,4,4",
+                        "startOffsets": "95,135,57,173,250,336,211,293",
+                        "endColumns": "38,36,36,36,41,39,37,41",
+                        "endOffsets": "129,167,89,205,287,371,244,330"
+                    },
+                    "to": {
+                        "startLines": "8,9,10,11,12,13,14,15",
+                        "startColumns": "4,4,4,4,4,4,4,4",
+                        "startOffsets": "473,512,549,586,623,665,705,743",
+                        "endColumns": "38,36,36,36,41,39,37,41",
+                        "endOffsets": "507,544,581,618,660,700,738,780"
+                    }
+                }
+            ]
+        }
+    ]
+}

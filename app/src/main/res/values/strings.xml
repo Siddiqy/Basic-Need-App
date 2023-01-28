@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Basic Need</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="click_to_access_food_location_map">click to access food location map</string>
+    <string name="click_to_access_clothing_location_map">click_to_access_clothing_location_map</string>
+    <string name="click_to_access_education_location_map">click_to_access_education_location_map</string>
+    <string name="click_to_access_hotel_location_map">click_to_access_hotel_location_map</string>
+    <string name="click_to_access_medical_location_map">click_to_access_medical_location_map</string>
+    <string name="click_to_access_bustop_location_map">click_to_access_bustop_location_map</string>
+</resources>

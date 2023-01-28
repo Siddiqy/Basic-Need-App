@@ -1,0 +1,26 @@
+{
+    "logs": [
+        {
+            "outputFile": "H:\\Final Year Project\\app\\build\\intermediates\\incremental\\mergeReleaseResources\\merged.dir\\values-normal-v4\\values-normal-v4.xml",
+            "map": [
+                {
+                    "source": "H:\\Final Year Project\\app\\src\\main\\res\\values-normal\\dimens.xml",
+                    "from": {
+                        "startLines": "3,4,2,5,7,9,6,8",
+                        "startColumns": "4,4,4,4,4,4,4,4",
+                        "startOffsets": "95,135,57,173,250,333,211,292",
+                        "endColumns": "38,36,36,36,40,38,37,39",
+                        "endOffsets": "129,167,89,205,286,367,244,327"
+                    },
+                    "to": {
+                        "startLines": "2,3,4,5,6,7,8,9",
+                        "startColumns": "4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,94,131,168,205,246,285,323",
+                        "endColumns": "38,36,36,36,40,38,37,39",
+                        "endOffsets": "89,126,163,200,241,280,318,358"
+                    }
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,4 @@
+#Sat Dec 28 18:37:14 BDT 2019
+base.0=H\:\\Final Year Project\\app\\build\\intermediates\\dex\\release\\mergeDexRelease\\out\\classes.dex
+path.0=classes.dex
+renamed.0=classes.dex

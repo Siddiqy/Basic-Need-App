@@ -1,0 +1,124 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.apu.samiul.finalyearproject"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="19"
+8-->H:\Final Year Project\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="29" />
+9-->H:\Final Year Project\app\src\main\AndroidManifest.xml
+10
+11    <!--
+12         The ACCESS_COARSE/FINE_LOCATION permissions are not required to use
+13         Google Maps Android API v2, but you must specify either coarse or fine
+14         location permissions for the 'MyLocation' functionality.
+15    -->
+16    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+16-->H:\Final Year Project\app\src\main\AndroidManifest.xml:10:5-79
+16-->H:\Final Year Project\app\src\main\AndroidManifest.xml:10:22-76
+17    <uses-permission android:name="android.permission.INTERNET" />
+17-->H:\Final Year Project\app\src\main\AndroidManifest.xml:11:5-67
+17-->H:\Final Year Project\app\src\main\AndroidManifest.xml:11:22-64
+18    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+18-->H:\Final Year Project\app\src\main\AndroidManifest.xml:12:5-79
+18-->H:\Final Year Project\app\src\main\AndroidManifest.xml:12:22-76
+19    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+19-->H:\Final Year Project\app\src\main\AndroidManifest.xml:13:5-81
+19-->H:\Final Year Project\app\src\main\AndroidManifest.xml:13:22-78
+20
+21    <uses-feature
+21-->[com.google.android.gms:play-services-maps:16.1.0] C:\Users\Monwar\.gradle\caches\transforms-2\files-2.1\3d84c4f1d2875de1f8af471215618602\jetified-play-services-maps-16.1.0\AndroidManifest.xml:26:5-28:35
+22        android:glEsVersion="0x00020000"
+22-->[com.google.android.gms:play-services-maps:16.1.0] C:\Users\Monwar\.gradle\caches\transforms-2\files-2.1\3d84c4f1d2875de1f8af471215618602\jetified-play-services-maps-16.1.0\AndroidManifest.xml:27:9-41
+23        android:required="true" />
+23-->[com.google.android.gms:play-services-maps:16.1.0] C:\Users\Monwar\.gradle\caches\transforms-2\files-2.1\3d84c4f1d2875de1f8af471215618602\jetified-play-services-maps-16.1.0\AndroidManifest.xml:28:9-32
+24
+25    <application
+25-->H:\Final Year Project\app\src\main\AndroidManifest.xml:15:5-49:19
+26        android:allowBackup="true"
+26-->H:\Final Year Project\app\src\main\AndroidManifest.xml:16:9-35
+27        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+27-->[androidx.core:core:1.0.1] C:\Users\Monwar\.gradle\caches\transforms-2\files-2.1\8f8ab13dc8f4e84e14a8bb3d9ac92bc4\core-1.0.1\AndroidManifest.xml:22:18-86
+28        android:debuggable="true"
+29        android:icon="@mipmap/ic_launcher"
+29-->H:\Final Year Project\app\src\main\AndroidManifest.xml:17:9-43
+30        android:label="@string/app_name"
+30-->H:\Final Year Project\app\src\main\AndroidManifest.xml:18:9-41
+31        android:roundIcon="@mipmap/ic_launcher_round"
+31-->H:\Final Year Project\app\src\main\AndroidManifest.xml:19:9-54
+32        android:supportsRtl="true"
+32-->H:\Final Year Project\app\src\main\AndroidManifest.xml:20:9-35
+33        android:testOnly="true"
+34        android:theme="@style/AppTheme" >
+34-->H:\Final Year Project\app\src\main\AndroidManifest.xml:21:9-40
+35
+36        <!--
+37             The API key for Google Maps-based APIs is defined as a string resource.
+38             (See the file "res/values/google_maps_api.xml").
+39             Note that the API key is linked to the encryption key used to sign the APK.
+40             You need a different API key for each encryption key, including the release key that is used to
+41             sign the APK for publishing.
+42             You can define the keys for the debug and release targets in src/debug/ and src/release/.
+43        -->
+44        <meta-data
+44-->H:\Final Year Project\app\src\main\AndroidManifest.xml:31:9-33:55
+45            android:name="com.google.android.geo.API_KEY"
+45-->H:\Final Year Project\app\src\main\AndroidManifest.xml:32:13-58
+46            android:value="@string/google_maps_key" />
+46-->H:\Final Year Project\app\src\main\AndroidManifest.xml:33:13-52
+47
+48        <activity
+48-->H:\Final Year Project\app\src\main\AndroidManifest.xml:35:9-41:20
+49            android:name="com.apu.samiul.finalyearproject.MapsActivity"
+49-->H:\Final Year Project\app\src\main\AndroidManifest.xml:36:13-41
+50            android:label="@string/title_activity_maps" >
+50-->H:\Final Year Project\app\src\main\AndroidManifest.xml:37:13-56
+51            <meta-data
+51-->H:\Final Year Project\app\src\main\AndroidManifest.xml:38:13-40:80
+52                android:name="android.support.PARENT_ACTIVITY"
+52-->H:\Final Year Project\app\src\main\AndroidManifest.xml:39:17-63
+53                android:value="com.apu.samiul.finalyearproject.MainActivity" />
+53-->H:\Final Year Project\app\src\main\AndroidManifest.xml:40:17-77
+54        </activity>
+55        <activity android:name="com.apu.samiul.finalyearproject.MainActivity" >
+55-->H:\Final Year Project\app\src\main\AndroidManifest.xml:42:9-48:20
+55-->H:\Final Year Project\app\src\main\AndroidManifest.xml:42:19-47
+56            <intent-filter>
+56-->H:\Final Year Project\app\src\main\AndroidManifest.xml:43:13-47:29
+57                <action android:name="android.intent.action.MAIN" />
+57-->H:\Final Year Project\app\src\main\AndroidManifest.xml:44:17-69
+57-->H:\Final Year Project\app\src\main\AndroidManifest.xml:44:25-66
+58
+59                <category android:name="android.intent.category.LAUNCHER" />
+59-->H:\Final Year Project\app\src\main\AndroidManifest.xml:46:17-77
+59-->H:\Final Year Project\app\src\main\AndroidManifest.xml:46:27-74
+60            </intent-filter>
+61        </activity>
+62        <!-- Needs to be explicitly declared on P+ -->
+63        <uses-library
+63-->[com.google.android.gms:play-services-maps:16.1.0] C:\Users\Monwar\.gradle\caches\transforms-2\files-2.1\3d84c4f1d2875de1f8af471215618602\jetified-play-services-maps-16.1.0\AndroidManifest.xml:33:9-35:40
+64            android:name="org.apache.http.legacy"
+64-->[com.google.android.gms:play-services-maps:16.1.0] C:\Users\Monwar\.gradle\caches\transforms-2\files-2.1\3d84c4f1d2875de1f8af471215618602\jetified-play-services-maps-16.1.0\AndroidManifest.xml:34:13-50
+65            android:required="false" />
+65-->[com.google.android.gms:play-services-maps:16.1.0] C:\Users\Monwar\.gradle\caches\transforms-2\files-2.1\3d84c4f1d2875de1f8af471215618602\jetified-play-services-maps-16.1.0\AndroidManifest.xml:35:13-37
+66
+67        <activity
+67-->[com.google.android.gms:play-services-base:16.0.1] C:\Users\Monwar\.gradle\caches\transforms-2\files-2.1\31709df29865255f6e1d5a018852bfa4\jetified-play-services-base-16.0.1\AndroidManifest.xml:23:9-26:75
+68            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+68-->[com.google.android.gms:play-services-base:16.0.1] C:\Users\Monwar\.gradle\caches\transforms-2\files-2.1\31709df29865255f6e1d5a018852bfa4\jetified-play-services-base-16.0.1\AndroidManifest.xml:24:13-79
+69            android:exported="false"
+69-->[com.google.android.gms:play-services-base:16.0.1] C:\Users\Monwar\.gradle\caches\transforms-2\files-2.1\31709df29865255f6e1d5a018852bfa4\jetified-play-services-base-16.0.1\AndroidManifest.xml:25:13-37
+70            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+70-->[com.google.android.gms:play-services-base:16.0.1] C:\Users\Monwar\.gradle\caches\transforms-2\files-2.1\31709df29865255f6e1d5a018852bfa4\jetified-play-services-base-16.0.1\AndroidManifest.xml:26:13-72
+71
+72        <meta-data
+72-->[com.google.android.gms:play-services-basement:16.0.1] C:\Users\Monwar\.gradle\caches\transforms-2\files-2.1\5da50dfdfeac8c1a9672b2010c6c7783\jetified-play-services-basement-16.0.1\AndroidManifest.xml:23:9-25:69
+73            android:name="com.google.android.gms.version"
+73-->[com.google.android.gms:play-services-basement:16.0.1] C:\Users\Monwar\.gradle\caches\transforms-2\files-2.1\5da50dfdfeac8c1a9672b2010c6c7783\jetified-play-services-basement-16.0.1\AndroidManifest.xml:24:13-58
+74            android:value="@integer/google_play_services_version" />
+74-->[com.google.android.gms:play-services-basement:16.0.1] C:\Users\Monwar\.gradle\caches\transforms-2\files-2.1\5da50dfdfeac8c1a9672b2010c6c7783\jetified-play-services-basement-16.0.1\AndroidManifest.xml:25:13-66
+75    </application>
+76
+77</manifest>

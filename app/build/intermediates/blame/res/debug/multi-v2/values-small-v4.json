@@ -1,0 +1,26 @@
+{
+    "logs": [
+        {
+            "outputFile": "H:\\Final Year Project\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-small-v4\\values-small-v4.xml",
+            "map": [
+                {
+                    "source": "H:\\Final Year Project\\app\\src\\main\\res\\values-small\\dimens.xml",
+                    "from": {
+                        "startLines": "3,4,2,5,7,9,6,8",
+                        "startColumns": "4,4,4,4,4,4,4,4",
+                        "startOffsets": "95,134,57,172,249,332,210,291",
+                        "endColumns": "37,36,36,36,40,38,37,39",
+                        "endOffsets": "128,166,89,204,285,366,243,326"
+                    },
+                    "to": {
+                        "startLines": "2,3,4,5,6,7,8,9",
+                        "startColumns": "4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,93,130,167,204,245,284,322",
+                        "endColumns": "37,36,36,36,40,38,37,39",
+                        "endOffsets": "88,125,162,199,240,279,317,357"
+                    }
+                }
+            ]
+        }
+    ]
+}
